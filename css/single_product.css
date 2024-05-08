@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'EB Garamond';
+}
+
+.large-image {
+    margin-left: 200px;
+    margin-top: 50px;
+    /* height equal to image-box */
+    height: 400px;
+    object-fit: cover;
+    margin-right: 100px;
+}
+
+main {
+    flex-grow: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+main h1 {
+    color: black;
+}
+
+main p {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.price {
+    color: #B88E2F;
+    font-size: 2em;
+}
+
+.quantity-group {
+    display: flex;
+    align-items: center;
+    margin-right:600px;
+}
+.quantity-group button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    margin-right:0px;
+    margin-left:0px;
+}
+.quantity-group input {
+    margin-right:0px;
+    margin-left:0px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.stock {
+    margin-left: 25px;
+}
+
+input[type="button"]{
+    background-color: #F9F1E7;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    margin-left:0px;
+    margin-right: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.comment {
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+.review-time {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.review-text {
+    margin-top: 5px;
+}
+
+.add-comment {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-comment input[type="text"] {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.add-comment button {
+    background-color: #F9F1E7;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}

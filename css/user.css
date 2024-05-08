@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex; /* makes the content area a flex container */
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; 
+    height: 100%; 
+    margin-left: 50px;
+}
+
+.profile, .account-info {
+    background-color: #F9F1E7;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    color: #333;
+    margin-right:20px;
+}
+
+label {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name div {
+    width: 45%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="info"] {
+    padding: 20px;
+    border-radius: 40px;
+    border: 1px solid #ddd;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #F9F1E7;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    /* a little bit darker than F9F1E7 */
+    background-color: #E8DAD6;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group label, .form-group input {
+    width: 45%;
+}
+

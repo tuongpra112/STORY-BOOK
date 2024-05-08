@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex; /* makes the content area a flex container */
+}
+
+/* .box {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/banner_background.png"), linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box a {
+    font-family: 'EB Garamond';
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.box-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+} */
+
+.side-box {
+    width: 200px;
+    height: auto;
+    background-color: #FFECD5;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: flex; /* makes the side box a flex container */
+    flex-direction: column; /* aligns the items vertically */
+    align-items: center; /* centers the items horizontally */
+}
+.side-box a{
+    color: black;
+    text-decoration: none;
+}
+
+.side-box-avatar {
+    width: 150px; 
+    height: 150px;
+    margin-top : 50px;
+}
+
+.side-box-avatar a{
+    margin: 0;
+    padding: 0;
+}
+
+.side-box-avatar-name {
+    font-family: 'Times New Roman', Times, serif
+    font-size: 30px;
+    font-weight: bold;
+    self-align: center;
+    color: #B88E2F;
+}
+
+.side-box-button {
+    width : 200px;
+}
+
+.side-box-button a{
+    margin: 0;
+    padding: 0;
+}
+
+.side-box-last-button {
+    width : 200px;
+    margin-bottom: 300px;
+}
+
+.side-box-last-button a{
+    margin: 0;
+    padding: 0;
+}
+
+.content-box {
+    width: 100%;
+    height: auto;
+    background-color: #F9F1E7;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}

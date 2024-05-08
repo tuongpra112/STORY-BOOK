@@ -1,0 +1,53 @@
+.logo_DABM {
+    width: 10%;
+    height: auto;
+}
+
+.select-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.date-input {
+    flex: 1;
+    margin-right: 60px;
+
+}
+
+#from_time,
+#to_time {
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.date-input form{
+    gap: 10px;
+}
+.custom-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#theloaiID {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0;
+    background-color: #F9F1E7;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left : 20px;
+}
+

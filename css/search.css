@@ -1,0 +1,104 @@
+.search-container {
+    background-color: #FFECD5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 27%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.search-icon {
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-container #searchForm {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-container #searchForm input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    background-color: #FFECD5;
+    border: none;
+}
+
+.search-container #searchForm input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+    cursor: pointer;
+}
+
+.search-container #searchForm input[type="submit"]:hover {
+    background-color: #a17a2a;
+}
+.button-container {
+    position: absolute;
+    right: 0;
+}
+.button-container input[type="button"] {
+    background-color: #FFECD5;
+    color: #B88E2F;
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: 1px solid #B88E2F;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.side-box-image {
+    max-width: 20px; /* Set your desired maximum width */
+    max-height: 20px; /* Set your desired maximum height */
+}
+.filter-box {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    background-color: #FFECD5;
+    border: 1px solid #B88E2F;
+    border-radius: 4px;
+    display: none; /* Hide the filter box by default */
+}
+
+.filter-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-box ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #B88E2F;
+}
+
+.filter-box ul li:last-child {
+    border-bottom: none;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.create-order-button {
+    background-color: #FFECD5;
+    color: #B88E2F;
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: 1px solid #B88E2F;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

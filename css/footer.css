@@ -1,0 +1,62 @@
+/* .footer */
+.footer {
+    padding:50px 0;
+    color:#000000;
+    background-color:#FFFFFF;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    height: 21px;
+    margin-left: 0px;
+}
+.footer h3 {
+    color: #9F9F9F;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer ul a {
+    color:black;
+    text-decoration:none;
+}
+
+.footer ul a:hover {
+    opacity:0.8;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+.email_signup_button {
+    padding: 10px 10px; 
+    background-color: #ffffff;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 12px;
+    margin-right: 0px;
+}
+.email_signup_button:hover {
+    /*a little bit darker than #ffffff*/
+    background-color: #e6e6e6; 
+}
